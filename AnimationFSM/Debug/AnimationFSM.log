@@ -1,0 +1,11 @@
+﻿  AnimatedSprite.cpp
+c:\users\c00207281\desktop\fsm-with-sprites\animationfsm\animatedsprite.cpp(42): warning C4018: '>': signed/unsigned mismatch
+  Animation.cpp
+  Climbing.cpp
+  Idle.cpp
+  Input.cpp
+  Jumping.cpp
+  main.cpp
+  Player.cpp
+  Generating Code...
+  AnimationFSM.vcxproj -> C:\Users\C00207281\Desktop\FSM-With-sprites\Debug\AnimationFSM.exe
