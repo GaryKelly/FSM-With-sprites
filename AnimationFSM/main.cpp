@@ -19,8 +19,30 @@ int main()
 		return EXIT_FAILURE;
 	}
 
+	Animation m_animation;
+
+	//consts for sf int rect
+	const int PIXELS{ 84 };
+	const int LINE_THICKNESS{ 3 };
+	const int IDLE{ 1 };
+	const int WALKING{ 2 };
+	const int CLIMBING{ 3 };
+	const int JUMPING{ 4 };
+	const int HAMMERING{ 5 };
+	const int SHOVELING{ 6 };
+	const int SWORDSMANSHIP{ 7 };
+
 	// Setup Players Default Animated Sprite
 	AnimatedSprite animated_sprite(texture);
+	//if (true) // IDLE
+	//{
+	//	animated_sprite.addFrame(sf::IntRect(3, 3, 84, 84));
+	//	animated_sprite.addFrame(sf::IntRect(88, 3, 84, 84));
+	//	animated_sprite.addFrame(sf::IntRect(173, 3, 84, 84));
+	//	animated_sprite.addFrame(sf::IntRect(258, 3, 84, 84));
+	//	animated_sprite.addFrame(sf::IntRect(343, 3, 84, 84));
+	//	animated_sprite.addFrame(sf::IntRect(428, 3, 84, 84));
+	//}
 	animated_sprite.addFrame(sf::IntRect(3, 3, 84, 84));
 	animated_sprite.addFrame(sf::IntRect(88, 3, 84, 84));
 	animated_sprite.addFrame(sf::IntRect(173, 3, 84, 84));

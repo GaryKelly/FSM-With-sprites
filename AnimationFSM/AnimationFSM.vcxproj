@@ -45,6 +45,7 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Shoveling.cpp" />
     <ClCompile Include="Swordsmanship.cpp" />
+    <ClCompile Include="Walking.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
