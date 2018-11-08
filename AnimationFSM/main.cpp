@@ -11,7 +11,9 @@ int main()
 {
 	// Create the main window
 	sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
-
+	
+	std::cout << " 1: Idle\n 2: Walk\n 3: Climb\n 4: Jump\n 5:Hammer\n 6:Shovel\n 7:Sword\n";
+			    
 	// Load a sprite to display
 	sf::Texture texture;
 	if (!texture.loadFromFile("assets\\grid.png")) {
@@ -95,10 +97,10 @@ int main()
 
 		// Clear screen
 		window.clear();
-
+		
 		// Draw the Players Current Animated Sprite
 		window.draw(player.getAnimatedSprite());
-
+		
 		// Update the window
 		window.display();
 	}

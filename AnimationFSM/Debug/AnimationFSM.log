@@ -2,6 +2,7 @@
   Climbing.cpp
   Hammering.cpp
   Idle.cpp
+  Input.cpp
   Jumping.cpp
   main.cpp
   Player.cpp
