@@ -22,7 +22,7 @@ void Climbing::jumping(Animation* a)
 
 void Climbing::walking(Animation * a)
 {
-	std::cout << "Idle -> Walking" << std::endl;
+	std::cout << "Climbing -> Walking" << std::endl;
 	a->setPrevious(a->getCurrent());
 	a->setCurrent(new Walking());
 	delete this;

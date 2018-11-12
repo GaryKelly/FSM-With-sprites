@@ -113,13 +113,13 @@
     <ClCompile Include="Hammering.cpp">
       <Filter>Source Files\FSM</Filter>
     </ClCompile>
-    <ClCompile Include="Shoveling.cpp">
-      <Filter>Source Files\FSM</Filter>
-    </ClCompile>
     <ClCompile Include="Swordsmanship.cpp">
       <Filter>Source Files\FSM</Filter>
     </ClCompile>
     <ClCompile Include="Walking.cpp">
+      <Filter>Source Files\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoveling.cpp">
       <Filter>Source Files\FSM</Filter>
     </ClCompile>
   </ItemGroup>
