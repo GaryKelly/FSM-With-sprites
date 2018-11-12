@@ -10,6 +10,7 @@ public:
 	Hammering() {};
 	~Hammering() {};
 	void idle(Animation *a);
+	void walking(Animation*a);
 };
 
 

@@ -2,6 +2,7 @@
 #include <Player.h>
 #include <Idle.h>
 #include <Debug.h>
+#include <SFML\Graphics.hpp>
 
 Player::Player()
 {
@@ -28,27 +29,27 @@ void Player::handleInput(Input in)
 {
 	DEBUG_MSG("Handle Input");
 
-	switch (in.getCurrent())
-	{
-	case Input::Action::IDLE:
-		//std::cout << "Player Idling" << std::endl;
-		m_animation.idle();
-		break;
-	case Input::Action::UP:
-		//std::cout << "Player Up" << std::endl;
-		m_animation.climbing();
-		break;
-	case Input::Action::LEFT:
-		//std::cout << "Player Left" << std::endl;
-		m_animation.jumping();
-		break;
-	case Input::Action::RIGHT:
-		//std::cout << "Player Idling" << std::endl;
-		m_animation.jumping();
-		break;
-	default:
-		break;
-	}
+	//switch (sf::Keyboard)
+	//{
+	//case Input::Action::IDLE:
+	//	//std::cout << "Player Idling" << std::endl;
+	//	m_animation.idle();
+	//	break;
+	//case Input::Action::UP:
+	//	//std::cout << "Player Up" << std::endl;
+	//	m_animation.climbing();
+	//	break;
+	//case Input::Action::LEFT:
+	//	//std::cout << "Player Left" << std::endl;
+	//	m_animation.jumping();
+	//	break;
+	//case Input::Action::RIGHT:
+	//	//std::cout << "Player Idling" << std::endl;
+	//	m_animation.jumping();
+	//	break;
+	//default:
+	//	break;
+	//}
 }
 
 void Player::update()

@@ -9,6 +9,7 @@ public:
 	Shoveling() {};
 	~Shoveling() {};
 	void idle(Animation *a);
+	void walking(Animation*a);
 
 };
 #endif // !SHOVELING_H

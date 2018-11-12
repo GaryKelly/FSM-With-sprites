@@ -1,13 +1,2 @@
-﻿  Animation.cpp
-  Climbing.cpp
-  Hammering.cpp
-  Idle.cpp
-  Input.cpp
-  Jumping.cpp
-  main.cpp
-  Player.cpp
-  Shoveling.cpp
-  Swordsmanship.cpp
-  Walking.cpp
-  Generating Code...
-  AnimationFSM.vcxproj -> C:\Users\C00207281\Desktop\FSM-With-sprites\Debug\AnimationFSM.exe
+﻿  main.cpp
+  AnimationFSM.vcxproj -> C:\Users\Gary\Desktop\FSM-With-sprites\Debug\AnimationFSM.exe

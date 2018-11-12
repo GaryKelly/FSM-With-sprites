@@ -9,6 +9,7 @@ public:
 	Swordsmanship() {};
 	~Swordsmanship() {};
 	void idle(Animation *a);
+	void walking(Animation*a);
 };
 
 
